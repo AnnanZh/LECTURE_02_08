@@ -1,5 +1,14 @@
 # LECTURE_02_08
 
+# Today in lab
+
+* Finish up proj00
+* Please tell your mentor if you think you will be staying with your repo/pair, or are thinking of switching.
+* Work on lab02
+* if you are done with both, ask mentor how to create a proj01 branch to get started on proj01
+* In general, don't make changes to master (or any other branch) if you have an outstanding pull request on that branch,
+    unless those changes are really SUPPOSED to be part of that pull request.
+
 # Exceptions
 
 To define a new exception type
