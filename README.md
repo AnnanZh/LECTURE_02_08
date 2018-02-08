@@ -8,6 +8,7 @@ To define a new exception type
     * `Exception`
     * `RuntimeException`
     * something more specific
+    * We'll come back to which kind in a moment...
 * Create a new class that extends the appropriate class
 * The body of that class can typically be empty, because
    all of the inherited methods do exactly what you need.
@@ -15,6 +16,7 @@ To define a new exception type
 ```java
 public class BadSuitException extends IllegalArgumentException {}
 ```
+
 
 # But why?
 
@@ -55,3 +57,16 @@ try {
    System.err.println("Sorry, one of your arguments is incorrect.");
 }
 ```
+
+# Checked vs. Unchecked Exceptions
+
+Some expections, if the method can throw the exception (directly, or indirectly), you have to
+* declare that the method throws the exception OR
+* you have to wrap the dangerous code in a try/catch
+
+The book says: you have to catch or "duck".
+* NOTE: "duck" is not a technical term!  It is ideosyncratic to our textbook.
+* A better way to say it is: you have to declare that the exception is thrown...
+* Which essentially delegates responsibility to whoever is calling your method.
+
+It's like "full disclosure".
