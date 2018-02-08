@@ -70,3 +70,9 @@ The book says: you have to catch or "duck".
 * Which essentially delegates responsibility to whoever is calling your method.
 
 It's like "full disclosure".
+
+# Merge conflicts
+
+Jeff asked about Merge conflicts.
+He wants to know what would happen.
+
