@@ -82,6 +82,6 @@ It's like "full disclosure".
 
 # Merge conflicts
 
-Jeff asked about Merge conflicts.
+Jeff really wants to know about Merge conflicts.
 He wants to know what would happen.
 
